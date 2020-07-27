@@ -1,0 +1,107 @@
+
+.header
+{
+background-image:url("../IP3/assets/backgrounds/h_img.jpg");
+background-size: cover;
+background-position: center;
+position: relative;
+opacity: 100%;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 63%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: white
+}
+.description p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.2;
+}
+#mouse-click{
+  
+top:20%; 
+
+}
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+  .about_us
+  {
+      background-color: #fff;
+      margin:0;
+      padding: 0;
+      
+  }
+
+  .services
+  {
+      background-image: url("../IP3/assets/backgrounds/s_image.jpg");
+      padding-top: 15%;
+      color:white;
+      position: absolute;
+       text-align: center;
+
+  }
+  .services h2 {
+      color:white;
+  }
+  .service p
+  {
+      color:white;
+  }
+    .what-we-do
+    {
+        
+        padding-top: 30%;
+    }
+    .what-we-do h2
+    {
+    color:red;
+    }
+
+
+  .contact
+  {
+background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+  }
+  .contact form
+  {
+    width:50%;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
+  .header
+  {
+  height:500px;
+  }
+  .Hover {
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
