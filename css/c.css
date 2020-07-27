@@ -76,6 +76,8 @@ top:20%;
   .contact
   {
 background-image: url("../IP3/assets/backgrounds/c_image.jpg");
+padding-top: 5%;
+color:white;
   }
   .contact form
   {
@@ -122,7 +124,7 @@ background-image: url("../IP3/assets/backgrounds/c_image.jpg");
 .text:hover {
     opacity:1;
 }
-}
+
 
 img {
     z-index:5;
