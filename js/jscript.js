@@ -22,3 +22,10 @@ $(document).ready(function(){
     $(".show2").slideToggle();
   });
 });
+//hover effects
+$(document).ready(function(){
+  $("#work1").hover(function(){
+    $(".img1").css("background-color", "yellow");
+  
+  });
+});
