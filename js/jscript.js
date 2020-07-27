@@ -29,3 +29,21 @@ $(document).ready(function(){
   
   });
 });
+
+$(document).ready(function(){
+  $(form).submit(function(){
+    var name=$("input#name").val();
+    var name=$("input#email").val();
+    var name=$("input#comment").val();
+    if($("input#name").val() && $("input#email").val())
+    {
+      alert(name+",we have received your message,thank you for reaching to us");
+
+    }
+
+else
+{
+  alert("enter your name and email address");
+}
+  });
+});
